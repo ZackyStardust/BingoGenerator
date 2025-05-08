@@ -2,5 +2,7 @@
 .idea/
 *.iml
 
-# Generated files
+# Outputs
+target/
+build/
 *.pdf

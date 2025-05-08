@@ -6,14 +6,14 @@ import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
 import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.font.PDType1Font;
-import org.apache.pdfbox.pdmodel.font.Standard14Fonts;
 import java.awt.*;
 import java.io.IOException;
+
 
 public class PdfBuilder {
     private final PDDocument doc = new PDDocument();
     private final PDPage page = new PDPage(PDRectangle.A4);
-    private final PDType1Font font = new PDType1Font(Standard14Fonts.FontName.TIMES_ROMAN);
+    private final PDType1Font font = PDType1Font.TIMES_ROMAN;
 
     private float writeTitle(String title, int titleSize, float margin) throws IOException {
         float pageWidth = page.getMediaBox().getWidth();
