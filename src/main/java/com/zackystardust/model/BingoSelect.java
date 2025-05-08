@@ -12,8 +12,8 @@ public class BingoSelect {
 
     private final ArrayList<ArrayList<String>> grid = new ArrayList<>();
 
-    public void buildBingo(Integer size) throws IOException, IllegalArgumentException {
-        try (InputStream is = getClass().getClassLoader().getResourceAsStream("data/colors.json")) {
+    public void buildBingo(Integer size, String fileName) throws IOException, IllegalArgumentException {
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("data/" + fileName + ".json")) {
 
             if (size <= 0) {
                 throw new IllegalArgumentException("Grid size must be positive");

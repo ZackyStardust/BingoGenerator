@@ -2,8 +2,38 @@ package com.zackystardust;
 
 import com.zackystardust.model.BingoSelect;
 import com.zackystardust.builder.PdfBuilder;
-import java.io.IOException;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
+import java.io.IOException;
+import java.util.Objects;
+
+// Main.java - Launches the app
+public class Main extends Application {
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        // 1. Load FXML file
+        Parent root = FXMLLoader.load(
+                Objects.requireNonNull(getClass().getResource("/com/zackystardust/views/bingo-ui.fxml"))
+        );
+
+        // 2. Setup window
+        primaryStage.setTitle("Bingo Generator");
+        primaryStage.setScene(new Scene(root, 400, 300));
+        primaryStage.setResizable(false); // Optional: Prevent resizing
+        primaryStage.show();
+    }
+}
+
+// Old PDF generator below
+/*
 public class Main {
     public static void main(String[] args) {
         int gridSize = 0;
@@ -33,4 +63,4 @@ public class Main {
             System.err.println("Please report this issue with the stack trace");
         }
     }
-}
+}*/
