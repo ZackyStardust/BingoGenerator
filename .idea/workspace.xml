@@ -1,70 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81a84d33-0dce-47fd-8bcd-2a77feadbcf0" name="Changes" comment="" />
+    <list default="true" id="34d596d3-f803-44e5-be92-4740e59f4dca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_20250107.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors/colors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors/colors_new.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Car Bingo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Car Bingo/main/java/BingoSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Car Bingo/main/java/PdfBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BingoSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PdfBuilder.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2wPFF3qx7smQToMKn12cP8sIjQO" />
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZackyStardust"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ZackyStardust/CarBingo.git",
+    "accountId": "d29b02c8-c56f-4d77-826e-f60d00cc9276"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2wp8yxAWvWfjZASpkUfdvU1iLJg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HelloWorld.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Reader.executor": "Run",
-    "Java Scratch.Scratch.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/fpram/Documents/Dev/Java/Car Bingo/colors",
-    "onboarding.tips.debug.path": "C:/Users/fpram/Documents/Dev/Java/Car Bingo/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fpram\Documents\Dev\Java\Car Bingo\colors" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fpram\Documents\Dev\Java\Car Bingo" />
-    </key>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81a84d33-0dce-47fd-8bcd-2a77feadbcf0" name="Changes" comment="" />
-      <created>1745935195839</created>
+      <changelist id="34d596d3-f803-44e5-be92-4740e59f4dca" name="Changes" comment="" />
+      <created>1746727412427</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745935195839</updated>
+      <updated>1746727412427</updated>
     </task>
     <servers />
   </component>
