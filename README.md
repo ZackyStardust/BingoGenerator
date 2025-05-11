@@ -1,7 +1,8 @@
-# Bingo Card Generator
+# Bingo Card Generator (Executable edition!)
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)  
 ![PDFBox](https://img.shields.io/badge/PDFBox-2.0.x-orange)
+![JavaFX Scene Builder](https://img.shields.io/badge/JavaFX_Scene_Builder-17%2B-ff69b4)
 
 I have a friend who likes to do a Bingo with her husband in which they try to find the most cars with unusual colors - so I decided to actually generate and print daily challenges for them while learning Java.
 
@@ -12,21 +13,21 @@ This is a Java application that creates printable Bingo cards from custom JSON d
 ## ✨ Features
 - ✅ Generate Bingo cards in PDF format in any size
 - 🎨 Customizable text entries via JSON
-- 📦 Self-contained (no external dependencies beyond PDFBox)
 
 ---
 
 ## 🚀 Quick Start
 ### Prerequisites
-- Java 17 or later
+- Java 24
+- JavaFX 24
 - Maven (for building)
 
 ```bash
 # Clone and run  
-git clone https://github.com/yourusername/bingo-generator.git  
-cd bingo-generator  
+git clone https://github.com/zackystardust/bingogenerator.git  
+cd bingogenerator  
 mvn package  
-java -jar target/bingo-generator.jar  
+java -jar BingoGenerator_executable/BingoGenerator.jar  
 ```
 
 ---
@@ -35,15 +36,23 @@ java -jar target/bingo-generator.jar
 ```
 src/  
 └── main/  
-    ├── java/  
+    ├── java/
+    |   ├── module-info.java
     │   └── com/  
     │       └── zackystardust/  
-    │           ├── Main.java          # Application entry  
-    │           ├── model/             # Data classes  
+    │           ├── Main.java           
+    │           ├── model/              
     │           │   └── BingoCard.java  
-    │           └── builder/           # PDF logic  
-    │               └── PdfBuilder.java  
-    └── resources/  
+    │           ├── builder/           
+    │           │   └── PdfBuilder.java
+    │           └── controller/
+    │               └── BingoController.java
+    └── resources/
+        ├── com
+        |   └── zackystardust
+        |       └── views
+        |           └── bingo-ui.fxml
+        |
         └── data/  
             └── colors.json           # Sample data   
 ```
@@ -57,15 +66,7 @@ src/
 }  
 ```
 
-2. Modify grid size in `Main.java`:
-```java
-int gridSize = 3; // Change to 5 for 5x5 cards  
-```
-
-3. Create a new JSON data file in the `data` folder, then edit in the `BingoSelect.java` file:
-``` java
- try (InputStream is = getClass().getClassLoader().getResourceAsStream("data/yourFile.json"))
-```
+2. Create a new JSON data file in the `themes` folder inside the `BingoGenerator_executable` folder.
 
 ---
 
@@ -76,7 +77,7 @@ mvn clean package
 And then,
 ```bash
 jpackage \
-  --name BingoGenerator \
+  --name BingoGenerator_executable \
   --input target/ \
   --main-jar bingo-generator-1.0.jar \
   --module-path "C:\path\to\javafx-sdk-24.0.1\lib" \
