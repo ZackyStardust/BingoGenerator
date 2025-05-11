@@ -53,7 +53,7 @@ src/
         |           └── bingo-ui.fxml
         |
         └── data/  
-            └── colors.json           # Sample data   
+            └── colors.json 
 ```
 ---
 
@@ -88,7 +88,7 @@ The output will be a folder with the executable .jar file to open and custuomize
 ---
 
 ## 🎯 Roadmap
-2. Turn the project into an API.
+1. Turn the project into an API.
 
 ---
 
