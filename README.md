@@ -81,14 +81,14 @@ The output PDF will be in the root.
 
 For users who just want to run the program without compiling:
 
-➡ **Executable Version**: Available in the [`executable` branch](https://github.com/yourusername/bingo-generator/tree/executable)  
+➡ **Executable Version**: Available in the [`executable` branch](https://github.com/ZackyStardust/BingoGenerator/tree/executable)  
 📦 Includes:
 - Pre-built JAR file
 - JavaFX runtime libraries
 - One-click launcher
 
 ```bash
-git clone -b executable https://github.com/zackystardust/bingo-generator.git
+git clone -b executable https://github.com/zackystardust/bingogenerator.git
 ```
 
 ---
