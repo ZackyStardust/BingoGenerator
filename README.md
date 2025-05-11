@@ -72,13 +72,22 @@ int gridSize = 3; // Change to 5 for 5x5 cards
 ## 🔨 Building from Source
 ```bash
 mvn clean package  
-```  
-The output PDF will be in the root.
+```
+And then,
+```bash
+jpackage \
+  --name BingoGenerator \
+  --input target/ \
+  --main-jar bingo-generator-1.0.jar \
+  --module-path "C:\path\to\javafx-sdk-24.0.1\lib" \
+  --add-modules javafx.controls,javafx.fxml \
+  --type app-image
+```
+The output will be a folder with the executable .jar file to open and custuomize your own Bingo sheet.
 
 ---
 
 ## 🎯 Roadmap
-1. Make an easy to run GUI to select data packages and quickly generate the cards.
 2. Turn the project into an API.
 
 ---
