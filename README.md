@@ -47,9 +47,9 @@ src/
     │           └── controller/
     │               └── BingoController.java
     └── resources/
-        ├── com
-        |   └── zackystardust
-        |       └── views
+        ├── com/
+        |   └── zackystardust/
+        |       └── views/
         |           └── bingo-ui.fxml
         |
         └── data/  
