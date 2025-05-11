@@ -23,7 +23,7 @@ This is a Java application that creates printable Bingo cards from custom JSON d
 
 ```bash
 # Clone and run  
-git clone https://github.com/yourusername/bingo-generator.git  
+git clone https://github.com/zackystardust/bingogenerator.git  
 cd bingo-generator  
 mvn package  
 java -jar target/bingo-generator.jar  
@@ -38,14 +38,14 @@ src/
     ├── java/  
     │   └── com/  
     │       └── zackystardust/  
-    │           ├── Main.java          # Application entry  
-    │           ├── model/             # Data classes  
+    │           ├── Main.java          
+    │           ├── model/             
     │           │   └── BingoCard.java  
-    │           └── builder/           # PDF logic  
+    │           └── builder/           
     │               └── PdfBuilder.java  
     └── resources/  
         └── data/  
-            └── colors.json           # Sample data   
+            └── colors.json          
 ```
 ---
 
