@@ -24,7 +24,7 @@ This is a Java application that creates printable Bingo cards from custom JSON d
 ```bash
 # Clone and run  
 git clone https://github.com/zackystardust/bingogenerator.git  
-cd bingo-generator  
+cd BingoGenerator  
 mvn package  
 java -jar target/bingo-generator.jar  
 ```
