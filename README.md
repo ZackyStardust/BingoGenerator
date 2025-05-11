@@ -77,9 +77,22 @@ The output PDF will be in the root.
 
 ---
 
+## ▶️ Download Ready-to-Run Version
+
+For users who just want to run the program without compiling:
+
+➡ **Executable Version**: Available in the [`executable` branch](https://github.com/yourusername/bingo-generator/tree/executable)  
+📦 Includes:
+- Pre-built JAR file
+- JavaFX runtime libraries
+- One-click launcher
+
+```bash
+git clone -b executable https://github.com/zackystardust/bingo-generator.git
+```
+
 ## 🎯 Roadmap
-1. Make an easy to run GUI to select data packages and quickly generate the cards.
-2. Turn the project into an API.
+1. Turn the project into an API.
 
 ---
 
