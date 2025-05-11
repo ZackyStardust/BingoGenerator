@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.zackystardust.controller.BingoController"
+      spacing="10"
+      prefWidth="400"
+      prefHeight="300"
+      style="-fx-padding: 10;">  <!-- Adds margin -->
+
+   <Label text="Select theme:"/>
+   <ChoiceBox fx:id="jsonDropdown" prefWidth="150"/>
+   <Label text="Title:"/>
+   <TextField fx:id="titleField"/>
+   <Label text="Grid size:"/>
+   <Spinner fx:id="sizeSpinner">
+      <valueFactory>
+         <SpinnerValueFactory.IntegerSpinnerValueFactory
+                 min="3"
+                 max="5"
+                 initialValue="3"/>
+      </valueFactory>
+   </Spinner>
+   <Button text="Generate" onAction="#handleGenerate"/>
+</VBox>

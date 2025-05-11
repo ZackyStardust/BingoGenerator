@@ -1,0 +1,54 @@
+[
+        {
+                "cor": "Vermelho",
+                "pontos": 1
+        },
+        {
+                "cor": "Prata",
+                "pontos": 1
+        },
+        {
+                "cor": "Branco",
+                "pontos": 1
+        },
+        {
+                "cor": "Amarelo",
+                "pontos": 2
+        },
+        {
+                "cor": "Azul",
+                "pontos": 2
+        },
+        {
+                "cor": "Verde",
+                "pontos": 2
+        },
+        {
+                "cor": "Cinza",
+                "pontos": 2
+        },
+        {
+                "cor": "Roxo",
+                "pontos": 3
+        },
+        {
+                "cor": "Laranja",
+                "pontos": 3
+        },
+        {
+                "cor": "Rosa",
+                "pontos": 3
+        },
+        {
+                "cor": "Bege",
+                "pontos": 3
+        },
+        {
+                "cor": "Dourado",
+                "pontos": 3
+        },
+        {
+                "cor": "Brinks",
+                "pontos": 5
+        }
+]
