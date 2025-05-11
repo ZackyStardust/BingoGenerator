@@ -91,6 +91,8 @@ For users who just want to run the program without compiling:
 git clone -b executable https://github.com/zackystardust/bingo-generator.git
 ```
 
+---
+
 ## 🎯 Roadmap
 1. Turn the project into an API.
 
