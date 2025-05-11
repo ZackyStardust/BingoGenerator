@@ -18,8 +18,8 @@ This is a Java application that creates printable Bingo cards from custom JSON d
 
 ## 🚀 Quick Start
 ### Prerequisites
-- Java 24
-- JavaFX 24
+- Java 17+
+- JavaFX 17+
 - Maven (for building)
 
 ```bash
