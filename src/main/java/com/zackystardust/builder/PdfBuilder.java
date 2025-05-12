@@ -1,6 +1,7 @@
 package com.zackystardust.builder;
 
 import com.zackystardust.model.BingoSelect;
+import org.apache.pdfbox.pdmodel.font.Standard14Fonts;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.pdmodel.PDPageContentStream;
@@ -13,7 +14,7 @@ import java.io.IOException;
 public class PdfBuilder {
     private final PDDocument doc = new PDDocument();
     private final PDPage page = new PDPage(PDRectangle.A4);
-    private final PDType1Font font = PDType1Font.TIMES_ROMAN;
+    private final PDType1Font font = new PDType1Font(Standard14Fonts.FontName.TIMES_ROMAN);
 
     private float writeTitle(String title, int titleSize, float margin) throws IOException {
         float pageWidth = page.getMediaBox().getWidth();
