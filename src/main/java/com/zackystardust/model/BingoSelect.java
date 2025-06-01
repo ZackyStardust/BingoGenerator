@@ -1,6 +1,7 @@
 package com.zackystardust.model;
 
 import org.json.JSONArray;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,11 +9,13 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Random;
 
+@Component
 public class BingoSelect {
 
-    private final ArrayList<ArrayList<String>> grid = new ArrayList<>();
+    private ArrayList<ArrayList<String>> grid = new ArrayList<>();
 
     public void buildBingo(Integer size) throws IOException, IllegalArgumentException {
+        grid = new ArrayList<>();
         try (InputStream is = getClass().getClassLoader().getResourceAsStream("data/colors.json")) {
 
             if (size <= 0) {
@@ -67,5 +70,9 @@ public class BingoSelect {
 
     public void printGrid() {
         System.out.println(grid + "\n");
+    }
+
+    public ArrayList<ArrayList<String>> GetArray() {
+        return grid;
     }
 }
